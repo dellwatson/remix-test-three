@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/node": "~1.14.2",
+    "@remix-run/react": "~1.14.2",
+    "@remix-run/serve": "~1.14.2",
+    "framer-motion": "^6.2.8",
+    "isbot": "^3.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+
+    "@babel/core": "7.15.5",
+    "@react-three/drei": "9.17.3",
+    "@react-three/fiber": "8.2.2",
+    "@react-three/postprocessing": "2.0.3",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "babel-plugin-glsl": "1.0.0",
+    "babel-plugin-macros": "3.1.0",
+    "detect-gpu": "^5.0.32",
+    "glsl-curl-noise2": "0.0.4",
+    "glsl-noise": "0.0.0",
+    "leva": "0.9.29",
+    "postprocessing": "6.22.0",
+    "react-scripts": "5.0.1",
+    "three": "0.142.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "~1.14.2",
+    "@remix-run/eslint-config": "~1.14.2",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
